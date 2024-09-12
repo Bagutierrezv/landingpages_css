@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf5fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+header {
+    background-image: url(../img/fondo8.jpg);
+    padding: 7em;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(34, 33, 33);
+}
+
+header p{
+    font-style: italic;
+    font-size: 1.3em;
+    border: 1px solid blueviolet;
+    background-color: rgb(251, 238, 255);
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(65, 65, 65);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    padding: 0.5em;
+}
+
+table td{
+    width: 50%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+table p{
+    color: rgb(65, 65, 65);
+}
+
+.imagen{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.imagen img{
+    width: 60%;
+}
+
+.descripcion{
+    font-style: italic;
+    color: rgb(122, 88, 153);
+}
+
+.nombre{
+    font-size: 1.2em;
+    color: rgb(122, 88, 153);
+}
+
+.nombre strong{
+    color: blueviolet;
+}
+
+footer{
+    margin-top: 1em;
+    background-color: #FFFBFA;
+    text-align: center;
+    padding: 1.5em;
+    font-weight: 400;
+}
+
